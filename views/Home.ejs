@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <title>Home | Student Leadership Conclave</title>
+    <meta name = "author" content = "Reuben Devanesan | Aditya Shekhar">
+    <meta name = "description" value = "Student Leadership Conclavea is a forum to bring together the student leaders of all IITs to brainstorm the solutions to different issues, currently ailing the students of IITs.">
+    <link rel = "icon" href = "/images/iitgnlogo.png">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,500,800" rel="stylesheet">
+    <!--Fonts-->
+    <script src="https://kit.fontawesome.com/9d7cc8090d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="site"> <!--For responsiveness in mobile devices-->
+        <!--Navbar-->
+        <header>
+            <nav class = "navbar navbar-expand-lg fixed-top navbar-light">
+                <a class="navbar-brand" href="/Home">Student Leadership Conclave</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>        
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ml-auto mr-5 mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/slc-2021">SLC 2021</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/prev-editions">Previous Editions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/team">Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <br><br>
+
+        <!--Jumbotron-->
+        <div class="container-fluid">
+            <div class="slideshow-container">
+              <div class="mySlides1">
+                <img class="slc-slides animate-fading" src="/images/slideshow2020.png">
+              </div>
+      
+              <div class="mySlides1">
+                <img class="slc-slides animate-fading" src="/images/slideshow2018.png">
+              </div>
+    
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <div style="text-align:center" id = "dot-placement">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+              </div>
+            </div>
+        </div>
+
+        <!--SLC-->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">STUDENT LEADERSHIP CONCLAVE</h1>
+            <p class="lead">Re-imagining student engagement in IITs</p>
+        </div>
+
+        <!--About SLC-->
+        <div class = "container">
+            <h1 class = "display-4">About SLC</h1>
+            <p>The Student Leadership Conclave was envisioned as a forum to bring together the
+                student leaders of all IITs to brainstorm the solutions to different issues, currently
+                ailing the students of IITs. The first edition of Student Leadership Conclave was
+                organized on March 24-25, 2018, and student leaders from 14 different IITs
+                attended. Its agenda were Peer Assistance and Learning, Imperative of Soft skills,
+                Hobby groups, and establishment of Student Academic Conference. After the
+                astounding success of the first edition, the second edition of the Student
+                Leadership conclave was organized on January 5-6, 2019, and student leaders from
+                18 IITs participated. The agenda for the Second edition was Academic Integrity,
+                Undergraduate Research, Student Well-Being, and Linguistic Groupism among
+                students. The Student Leadership Conclave strives to be a place where one IIT can
+                learn from others and collaborate to “reimagine student engagement.”
+                </p>
+        </div>
+        <br>
+        
+        <!--Preamble of SLC-->
+        <div class = "container">
+            <h1 class = "display-4">Preamble</h1>
+            <p>The Students Leadership Conclave aims to discuss the possibilities and necessity
+                of reimagining student governance in IIT system. The frameworks of knowledge
+                creation, assimilation and dissemination have gone through radical changes.
+                Diversity in background of the students joining IITs has posed new dimensions
+                to the challenges. Nonlinear, interactive and collaborative approaches to learning
+                and teaching is changing the culture of educational institutions. Emergence of
+                new culture would mean reimagining the current framework and adopting new
+                ones. It is important for the student leaders of IITs to get engaged in this process
+                and discuss the new trends in student governance. The activities and action plans
+                emerging out of this conclave are expected to be transformative in the role
+                of student governance in IIT education.
+                </p>
+        </div>
+        <br><br><br>
+
+        <!--Footer-->
+        <div class = "footer">
+
+        </div>
+    </div>
+    <!--Bootstrap and JQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+</html>
