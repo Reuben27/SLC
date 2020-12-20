@@ -1,8 +1,8 @@
 ## SLC
 
-Repository for the SLC website code.
+Repository for the SLC website code. Developed using HTML, CSS, Javascript, JQuery and Node.js
 
-Hosted on: https://warm-hamlet-22196.herokuapp.com/
+Hosted on Heroku: https://warm-hamlet-22196.herokuapp.com/
 
 ## Team
 
