@@ -41,6 +41,19 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="/prev-editions">Previous Editions</a>
                         </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link" href="/slc-2020">Summary of Discussions</a>
+                          <button class=" dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          </button>  
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2020">SLC 2020</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2019">SLC 2019</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2018">SLC 2018</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery">Gallery</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/team">Team</a>
                         </li>
@@ -56,6 +69,10 @@
             </div>  
         </div>
 
+        <div id = "top">
+            <button id = "myBtn"><a href = "#top" id = "top-icon"><i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i></a></button>
+        </div>
+
         <div id = "slc2020">
         </div>
 
@@ -68,19 +85,19 @@
                         <div class="position-sticky">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#slc2020">
+                                    <a class="nav-link" aria-current="page" href="#slc2020" style = "color: darkblue">
                                         <span data-feather=""></span> SLC 2020
                                     </a>
                                 </li>
                                 <br>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#slc2019">
+                                    <a class="nav-link" href="#slc2019"  style = "color: darkblue">
                                     <span data-feather=""></span> SLC 2019
                                     </a>
                                 </li>
                                 <br>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#slc2018">
+                                    <a class="nav-link" href="#slc2018"  style = "color: darkblue">
                                     <span data-feather = ""></span>SLC 2018
                                     </a>
                                 </li>
@@ -94,7 +111,7 @@
 
                     <!--SLC 2020-->
                     <div class = "agenda1">
-                        <div class = "heading display-4 text-center">SLC 2020</div>
+                        <div class = "heading display-4 text-center">SLC 2020</div><hr>
                         <br>
                         <div class = "heading">
                         <a href = "/slc-2020"><h3>Professional and Shared Living Space Etiquettes/Skills</h3></a>
@@ -179,7 +196,7 @@
                     </div>
 
                     <div class = "agenda2">
-                        <div class = "heading display-4 text-center">SLC 2019</div>
+                        <div class = "heading display-4 text-center">SLC 2019</div><hr>
                         <br>
                         <div class = "heading">
                             <a href = "/slc-2019"><h3>Academic integrity</h3></a>
@@ -299,7 +316,7 @@
                     <div id="slc2018"></div>
                     <br><br><br>
                     <div class = "agenda2">
-                        <div class = "heading display-4 text-center">SLC 2018</div>
+                        <div class = "heading display-4 text-center">SLC 2018</div><hr>
                         <br>
                         <div class = "heading">
                             <a href = "/slc-2018"><h3>Reinforcing students’ confidence through peer assistance and learning</h3></a>
@@ -380,13 +397,55 @@
         <br><br>
 
         <!--Footer-->
-
+        <footer>
+            <div class="container"><hr><br>
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                        <a href="https://www.facebook.com/iitgn.official/" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f  fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a href="https://iitgn.ac.in/" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item" >
+                        <a href="mailto:slc@iitgn.ac.in" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item" >
+                        <a href="https://www.youtube.com/user/IITGN1" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright &copy; SLC 2021</p>
+                    </div>
+               </div>
+            </div>
+        </footer>
     </div>
     <!--Bootstrap and JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="/js/prev-ed.js"></script>
 </body>
 </html>

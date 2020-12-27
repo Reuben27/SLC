@@ -41,6 +41,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/prev-editions">Previous Editions</a>
                         </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link" href="/slc-2020">Summary of Discussions</a>
+                          <button class=" dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          </button>  
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2020">SLC 2020</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2019">SLC 2019</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2018">SLC 2018</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery">Gallery</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/team">Team</a>
                         </li>
@@ -55,19 +68,25 @@
         <div class="container-fluid">
             <div class="slideshow-container">
               <div class="mySlides1">
-                <img class="slc-slides animate-fading" src="/images/slideshow2020.png">
+                <img class="slc-slides animate-fading" src="/images/Gallery/SLC-2020/1.JPG">
               </div>
-      
               <div class="mySlides1">
-                <img class="slc-slides animate-fading" src="/images/slideshow2018.png">
+                <img class="slc-slides animate-fading" src="/images/Gallery/SLC-2020/2.JPG">
               </div>
-    
+              <div class="mySlides1">
+                <img class="slc-slides animate-fading" src="/images/Gallery/SLC-2019/1.jpg">
+              </div>      
+              <div class="mySlides1">
+                <img class="slc-slides animate-fading" src="/images/Gallery/SLC-2019/2.JPG">
+              </div>    
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
               <div style="text-align:center" id = "dot-placement">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
               </div>
             </div>
         </div>
@@ -80,7 +99,7 @@
 
         <!--About SLC-->
         <div class = "container">
-            <h1 class = "display-4">About SLC</h1>
+            <h1 class = "display-4">About SLC</h1><hr>
             <p>The Student Leadership Conclave was envisioned as a forum to bring together the
                 student leaders of all IITs to brainstorm the solutions to different issues, currently
                 ailing the students of IITs. The first edition of Student Leadership Conclave was
@@ -99,27 +118,74 @@
         
         <!--Preamble of SLC-->
         <div class = "container">
-            <h1 class = "display-4">Preamble</h1>
-            <p>The Students Leadership Conclave aims to discuss the possibilities and necessity
-                of reimagining student governance in IIT system. The frameworks of knowledge
-                creation, assimilation and dissemination have gone through radical changes.
-                Diversity in background of the students joining IITs has posed new dimensions
-                to the challenges. Nonlinear, interactive and collaborative approaches to learning
-                and teaching is changing the culture of educational institutions. Emergence of
-                new culture would mean reimagining the current framework and adopting new
-                ones. It is important for the student leaders of IITs to get engaged in this process
-                and discuss the new trends in student governance. The activities and action plans
-                emerging out of this conclave are expected to be transformative in the role
-                of student governance in IIT education.
-                </p>
+            <h1 class = "display-4">Preamble</h1><hr>
+            <p>The IIT system celebrates the pursuit of knowledge, nurtures future leadership, facilitates entrepreneurial thinking, develops skills to address concerns of the future, and incubates scholars,
+              thinkers and innovators. We believe that a responsible and vibrant student community has been our
+              major strength. Student governance has been a key factor in shaping the holistic education in IITs
+              that we see today. It has emerged out of proactive student leadership, collective commitment and
+              disruptive thinking.
+              <br><br>
+              The Student Leadership Conclave aims to discuss the possibilities and necessity of re-imagining
+              student governance in the IIT system. The frameworks of knowledge creation, assimilation, and
+              dissemination have gone through radical changes. Diversity in the backgrounds of the students
+              joining IITs has posed new dimensions to the challenges. Nonlinear, interactive, and collaborative
+              approaches to learning and teaching are changing the culture of educational institutions. The emergence of new culture would mean re-imagining the current framework and adopting new ones. It is
+              important for the student leaders of IITs to get engaged in this process and discuss the new trends
+              in student governance. The activities and action plans emerging out of this conclave are expected to
+              be transformative in the role of student governance in IIT education.
+              <br><br>
+              The aim of the two-day conclave is to discuss agendas to make student engagement more effective
+              in IITs and make sure that they are in tune with the emerging cultural changes in educational
+              institutions.
+              </p>
         </div>
         <br><br><br>
 
         <!--Footer-->
-        <div class = "footer">
-
-        </div>
-    </div>
+        <footer>
+            <div class="container"><hr><br>
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/iitgn.official/" target="_blank" id = "footer-icon">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-facebook-f  fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://iitgn.ac.in/" target="_blank" id = "footer-icon">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item" >
+                      <a href="mailto:slc@iitgn.ac.in" target="_blank" id = "footer-icon">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item" >
+                      <a href="https://www.youtube.com/user/IITGN1" target="_blank" id = "footer-icon">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                  <p class="copyright text-muted text-center">Copyright &copy; SLC 2021</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
     <!--Bootstrap and JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

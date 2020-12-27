@@ -1,30 +1,21 @@
-#main-content{
-    margin-top: 5vw;
-    margin-left: 6vw;
-    margin-right: 6vw;
-}
-
-#sidebarMenu{
-    position: fixed;
-    margin-top: 9vw;
-    margin-left: -3vw;
-    font-size: 1.5vw;
-    padding-bottom: 1vw;
-}
-
 @media only screen and (max-width: 777px) {
-    #sidebarMenu{
-        display: none;
+    h1.heading{
+        font-size: 2.5rem;
     }
 
     #main-content{
-        margin-top: 5vw;
-        padding: 0;
+        margin-top: 5vh !important;
     }
 
     .heading{
         text-align: left;
     }
+}
+
+#main-content{
+    margin-top: 5vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
 }
 
 a {
@@ -53,7 +44,7 @@ a {
 .text{
     padding-left: 2vw;
 }
-
+  
 #myBtn {
     display: none;
     position: fixed;

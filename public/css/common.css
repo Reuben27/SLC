@@ -34,7 +34,62 @@ nav{
 }
 
 .nav-link:hover{
-  color: #808080;
+  color: black;
+}
+
+/*Hover Effect*/
+a.nav-link {
+  text-decoration: none;  
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+a.active{
+  font-weight: bold;
+  color: #705c25 !important;
+}
+
+a.nav-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background:  #705c25;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#navbarDropdownMenuLink{
+  background-color: #F6EEE2;
+  color: #705c25;
+  border: none;
+  margin-left: -15px;
+}
+
+button:focus{
+  outline: none;
+}
+
+ul.dropdown-menu{
+  padding: 0;
+  margin-left: 2vw;
+  outline: none;
+  border: 1px solid #705c25;
+}
+
+a.dropdown-item{
+  color: black;
+  text-align: center;
+  background-color: #F6EEE2;
+}
+
+a.nav-link:hover:after { 
+  width: 90%; 
+  left: 5%; 
 }
 
 /*Scrollbar Handle */
@@ -53,4 +108,22 @@ nav{
 
 ::-webkit-scrollbar-thumb:hover {
   background:  #705c25;
+}
+
+#footer-icon {
+  color: #8E793E !important;
+}
+
+@media only screen and (max-width: 777px) {
+  h1.heading{
+      font-size: 2.5rem;
+  }
+
+  #main-content{
+      margin-top: 5vh !important;
+  }
+
+  .heading{
+      text-align: left;
+  }
 }

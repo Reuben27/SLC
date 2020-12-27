@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Stylesheet-->
     <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/prev-ed.css">
+    <link rel="stylesheet" href="/css/sod.css">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,500,800" rel="stylesheet">
@@ -39,7 +39,20 @@
                             <a class="nav-link" href="/slc-2021">SLC 2021</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/prev-editions">Previous Editions</a>
+                            <a class="nav-link" href="/prev-editions">Previous Editions</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link active" href="/slc-2020">Summary of Discussions</a>
+                          <button class=" dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          </button>  
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2020">SLC 2020</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2019">SLC 2019</a></li>
+                              <li class="nav-item"><a class="dropdown-item nav-link" href="/slc-2018">SLC 2018</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/team">Team</a>
@@ -56,9 +69,13 @@
             </div>  
         </div>
 
+        <div id = "top">
+            <button id = "myBtn"><a href = "#top" id = "top-icon"><i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i></a></button>
+        </div>
+
         <div id = "main-content">        
             <div class = "row">
-                <!--Sidebar Navigation-->
+                <!--Sidebar Navigation
                 <div class = "col-md-4 col-lg-1">
                     <br>
                     <nav id = "sidebarMenu" class = "sidebar">
@@ -85,9 +102,9 @@
                         </div>
                     </nav>
                 </div>
-
+                -->
                 <!--Summary of Discussions-->
-                <div class = "col-sm-12 col-md-8 col-lg-11">
+                <div class = "col-sm-12 col-md-12 col-lg-12">
                     <h1 class = "heading display-2 text-center">SLC 2018</h1>
                     <h1 class = "heading display-4 text-center">SUMMARY OF DISCUSSIONS</h1>
                     <div id = "agenda1">
@@ -373,11 +390,52 @@
                 </div>
             </div>
         </div>
+        <br><br>
 
         <!--Footer-->
-        <div>
-            <br><br>
-        </div>
+        <footer>
+            <div class="container"><hr><br>
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                        <a href="https://www.facebook.com/iitgn.official/" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f  fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a href="https://iitgn.ac.in/" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item" >
+                        <a href="mailto:slc@iitgn.ac.in" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item" >
+                        <a href="https://www.youtube.com/user/IITGN1" target="_blank" id = "footer-icon">
+                            <span class="fa-stack fa-lg">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright &copy; SLC 2021</p>
+                    </div>
+               </div>
+            </div>
+        </footer>
     </div>
 
     <!--Bootstrap and JQuery-->
@@ -385,6 +443,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="/js/prev-ed.js"></script>
+    <script src="/js/sod.js"></script>
 </body>
 </html>
