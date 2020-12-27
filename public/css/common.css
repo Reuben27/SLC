@@ -126,4 +126,8 @@ a.nav-link:hover:after {
   .heading{
       text-align: left;
   }
+
+  #navbarDropdownMenuLink{
+    margin-left: -9px;
+  }
 }
