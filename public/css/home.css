@@ -103,7 +103,7 @@ span.active, .dot:hover {
     #dot-placement{
         position: absolute;
         top: 90%;
-        left: 48%;
+        left: 36%;
     }
 }
 
