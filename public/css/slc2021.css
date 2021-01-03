@@ -30,7 +30,8 @@
 
 .progress-bar {
     height: 8px;
-    background: #8E793E;
+    background: #CD853F;
+    /*background: #8E793E;*/
     width: 0%;
 }
 
