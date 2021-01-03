@@ -113,7 +113,8 @@ a.nav-link:hover:after {
 }
 
 #footer-icon {
-  color: #8E793E !important;
+  color: #A0522D !important;
+  /*color: #8E793E !important;*/
 }
 
 @media only screen and (max-width: 777px) {
