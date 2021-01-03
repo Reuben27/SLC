@@ -37,7 +37,7 @@ a {
 
 .progress-bar {
     height: 8px;
-    background: #8E793E;
+    background:  #A0522D;
     width: 0%;
 }
 
@@ -59,7 +59,7 @@ a {
     border-radius: 50%;
     width: 3vw;
     height:3vw;
-    background-color: #8E793E;;
+    background-color:  #A0522D;
 }
 
 @media only screen and (max-width: 777px) {

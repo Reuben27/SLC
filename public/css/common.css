@@ -47,7 +47,8 @@ a.nav-link {
 
 a.active{
   font-weight: bold;
-  color: #705c25 !important;
+  color: #A0522D !important;
+  /*color: #705c25 !important;*/
 }
 
 a.nav-link:after {    
@@ -58,14 +59,16 @@ a.nav-link:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background:  #705c25;
+  background: #A0522D;
+  /*background:  #705c25;*/
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
 #navbarDropdownMenuLink{
   background-color: #F6EEE2;
-  color: #705c25;
+  color: #A0522D;
+  /*color: #705c25;*/
   border: none;
   margin-left: -15px;
 }
@@ -78,7 +81,7 @@ ul.dropdown-menu{
   padding: 0;
   margin-left: 2vw;
   outline: none;
-  border: 1px solid #705c25;
+  border: 1px solid #A0522D;
 }
 
 a.dropdown-item{
