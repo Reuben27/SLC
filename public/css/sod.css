@@ -22,6 +22,10 @@
     margin-right: 9vw;
 }
 
+h6{
+    line-height: 1.6!important;
+}
+
 a {
     color: #333333 !important;
     text-decoration: none !important;
