@@ -3,17 +3,16 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [To-do List](#to-do-list)
 * [Status](#status)
-* [Contact](#contact)
+* [Team](#team)
 
 ## General info
-    Repository for the website of the Student Leadership Conclave, IITGn.
+Repository for the website of the Student Leadership Conclave, IITGn.
 
-    Hosted using github:- https://reuben27.github.io/SLC-Website/Home.html
+Hosted using github:- https://reuben27.github.io/SLC-Website/Home.html
 
-    Node.js based website hosted using heroku:- https://warm-hamlet-22196.herokuapp.com/
+Node.js based website hosted using heroku:- https://warm-hamlet-22196.herokuapp.com/
 
 ## Technologies
 * HTML, CSS, Javascript
@@ -27,7 +26,7 @@
 ## Status
 Project is: _in progress_
 
-## Contact 
+## Team 
 * [Reuben Devanesan](https://github.com/Reuben27)
 
 * [Aditya Shekhar](https://github.com/Aditya-76)
