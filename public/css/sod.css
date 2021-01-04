@@ -10,6 +10,10 @@
     .heading{
         text-align: left;
     }
+
+    div.nbspp-spacing{
+        display: none;
+    }
 }
 
 #main-content{
