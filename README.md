@@ -1,12 +1,5 @@
 # SLC Website
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [To-do List](#to-do-list)
-* [Status](#status)
-* [Team](#team)
-
 ## General info
 Repository for the website of the Student Leadership Conclave, IITGn.
 
