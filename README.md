@@ -3,8 +3,6 @@
 ## General info
 Repository for the website of the Student Leadership Conclave, IITGn.
 
-Hosted using github:- https://reuben27.github.io/SLC-Website/Home.html
-
 Node.js based website hosted using heroku:- https://warm-hamlet-22196.herokuapp.com/
 
 ## Technologies
