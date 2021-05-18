@@ -14,9 +14,6 @@ Node.js based website hosted using heroku:- https://warm-hamlet-22196.herokuapp.
 ## To-do List
 * Content is hard-coded. CMS required.
 
-## Status
-Project is: _in progress_
-
 ## Team 
 * [Reuben Devanesan](https://github.com/Reuben27)
 
