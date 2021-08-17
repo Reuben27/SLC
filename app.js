@@ -1,14 +1,14 @@
-var express = require("express"),
-  app = express(),
-  methodOverride = require("method-override"),
-  bodyParser = require("body-parser")
-// findOrCreate = require('mongoose-findorcreate')
+var express = require("express");
+const methodOverride = require("method-override");
+const bodyParser = require("body-parser");
+const ejs = require('ejs');
 
-app.set("view engine", "ejs")
-app.use(express.static("public"))
-app.use(bodyParser.urlencoded({
-  extended: true
-}))
+const app = express();
+app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
+app.set('views', './views');
+app.set ("view engine", "ejs");
+app.use(express.json());
 app.use(methodOverride("_method"))
 
 var indexRoutes = require("./routes/index")
