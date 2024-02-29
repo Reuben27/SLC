@@ -9,6 +9,10 @@ router.get("/slc-2021", function (req, res) {
     res.render("SLC-2021")
 });
 
+router.get("/slc-2022", function (req, res) {
+    res.render("SLC-2022")
+});
+
 router.get("/prev-editions", function (req, res) {
     res.render("Previous-Editions")
 });
