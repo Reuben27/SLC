@@ -1,0 +1,12 @@
+#main-content{
+    margin-top: 5vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+#sidebarMenu{
+    position: fixed;
+    margin-top: 9vw;
+    margin-left: -3vw;
+    font-size: 1.3vw;
+}
